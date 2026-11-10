@@ -218,3 +218,18 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# DocVisionRL: local environments, data, caches, and experiment artifacts
+/.cache/
+/.conda/
+/data/*
+!/data/.gitkeep
+/checkpoints/
+/outputs/
+/runs/
+/wandb/
+*.safetensors
+*.ckpt
+*.pt
+*.pth
+.DS_Store
